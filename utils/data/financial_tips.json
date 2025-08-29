@@ -1,0 +1,305 @@
+{
+  "budget_tips": {
+    "deficit": [
+      {
+        "tip": "🚨 Create an immediate spending freeze on non-essentials",
+        "category": "emergency",
+        "impact": "high"
+      },
+      {
+        "tip": "📱 Use the envelope method: allocate cash for each spending category",
+        "category": "method",
+        "impact": "high"
+      },
+      {
+        "tip": "🔍 Track every expense for 30 days to identify spending leaks",
+        "category": "tracking",
+        "impact": "medium"
+      },
+      {
+        "tip": "💡 Consider the 24-hour rule: wait a day before non-essential purchases",
+        "category": "behavior",
+        "impact": "medium"
+      }
+    ],
+    "surplus": [
+      {
+        "tip": "🎯 Automate your savings to pay yourself first",
+        "category": "automation",
+        "impact": "high"
+      },
+      {
+        "tip": "📈 Allocate surplus using 50/30/20 rule: needs/wants/savings",
+        "category": "allocation",
+        "impact": "high"
+      },
+      {
+        "tip": "🛡️ Build emergency fund before aggressive investing",
+        "category": "priority",
+        "impact": "high"
+      },
+      {
+        "tip": "🔄 Review and adjust budget quarterly for optimization",
+        "category": "maintenance",
+        "impact": "medium"
+      }
+    ]
+  },
+  "investment_tips": {
+    "beginner": [
+      {
+        "tip": "📊 Start with broad market index funds like S&P 500",
+        "risk_level": "low",
+        "time_horizon": "long_term"
+      },
+      {
+        "tip": "💰 Take advantage of employer 401(k) match - it's free money!",
+        "risk_level": "none",
+        "time_horizon": "immediate"
+      },
+      {
+        "tip": "🎯 Use target-date funds for hands-off retirement investing",
+        "risk_level": "low",
+        "time_horizon": "long_term"
+      },
+      {
+        "tip": "📅 Set up automatic investments to build discipline",
+        "risk_level": "none",
+        "time_horizon": "ongoing"
+      }
+    ],
+    "intermediate": [
+      {
+        "tip": "🌍 Add international diversification with total world index funds",
+        "risk_level": "medium",
+        "time_horizon": "long_term"
+      },
+      {
+        "tip": "🏠 Consider REITs for real estate exposure without buying property",
+        "risk_level": "medium",
+        "time_horizon": "medium_term"
+      },
+      {
+        "tip": "⚖️ Rebalance portfolio annually to maintain target allocation",
+        "risk_level": "low",
+        "time_horizon": "ongoing"
+      },
+      {
+        "tip": "💎 Use tax-loss harvesting in taxable accounts",
+        "risk_level": "low",
+        "time_horizon": "ongoing"
+      }
+    ],
+    "advanced": [
+      {
+        "tip": "📈 Consider factor investing (value, momentum, quality)",
+        "risk_level": "high",
+        "time_horizon": "long_term"
+      },
+      {
+        "tip": "🌐 Explore emerging markets for higher growth potential",
+        "risk_level": "high",
+        "time_horizon": "long_term"
+      },
+      {
+        "tip": "🔄 Use covered calls for additional income in flat markets",
+        "risk_level": "medium",
+        "time_horizon": "short_term"
+      },
+      {
+        "tip": "🏢 Consider alternative investments (private equity, commodities)",
+        "risk_level": "high",
+        "time_horizon": "long_term"
+      }
+    ]
+  },
+  "debt_tips": [
+    {
+      "tip": "❄️ Use debt avalanche: pay minimums on all, extra on highest interest rate",
+      "method": "avalanche",
+      "effectiveness": "mathematically optimal"
+    },
+    {
+      "tip": "⚡ Use debt snowball: pay minimums on all, extra on smallest balance",
+      "method": "snowball", 
+      "effectiveness": "psychologically motivating"
+    },
+    {
+      "tip": "📞 Call creditors to negotiate lower interest rates",
+      "method": "negotiation",
+      "effectiveness": "immediate impact"
+    },
+    {
+      "tip": "🔄 Consider balance transfer to 0% APR credit card",
+      "method": "transfer",
+      "effectiveness": "temporary relief"
+    },
+    {
+      "tip": "💪 Take on side hustle and put all extra income toward debt",
+      "method": "income_boost",
+      "effectiveness": "accelerated payoff"
+    },
+    {
+      "tip": "🎯 Use windfalls (tax refunds, bonuses) for debt payoff",
+      "method": "lump_sum",
+      "effectiveness": "significant progress"
+    }
+  ],
+  "emergency_fund_tips": [
+    {
+      "tip": "🏦 Keep emergency fund in high-yield savings account (4-5% APY)",
+      "category": "account_type",
+      "liquidity": "high"
+    },
+    {
+      "tip": "🎯 Start with $1000 mini emergency fund, then build to 3-6 months expenses",
+      "category": "building_strategy",
+      "liquidity": "high"
+    },
+    {
+      "tip": "🚫 Don't invest emergency fund - accessibility over growth",
+      "category": "investment_rule",
+      "liquidity": "high"
+    },
+    {
+      "tip": "💡 Use separate bank to avoid temptation spending",
+      "category": "behavioral",
+      "liquidity": "high"
+    },
+    {
+      "tip": "🔄 Automate emergency fund contributions like any other bill",
+      "category": "automation",
+      "liquidity": "high"
+    }
+  ],
+  "income_optimization_tips": [
+    {
+      "tip": "📈 Ask for raise using market research and performance metrics",
+      "timeline": "immediate",
+      "effort": "medium"
+    },
+    {
+      "tip": "🎓 Invest in skills training for career advancement",
+      "timeline": "6-12 months",
+      "effort": "high"
+    },
+    {
+      "tip": "💼 Start freelancing or consulting in your expertise area",
+      "timeline": "1-3 months", 
+      "effort": "high"
+    },
+    {
+      "tip": "🏠 Consider house hacking (rent out rooms) for extra income",
+      "timeline": "3-6 months",
+      "effort": "medium"
+    },
+    {
+      "tip": "📱 Use cashback apps and credit card rewards strategically",
+      "timeline": "immediate",
+      "effort": "low"
+    },
+    {
+      "tip": "🚗 Drive for rideshare or delivery services in spare time",
+      "timeline": "immediate",
+      "effort": "medium"
+    }
+  ],
+  "behavioral_finance_tips": [
+    {
+      "tip": "🧠 Automate decisions to avoid emotional spending",
+      "psychology": "reduces decision fatigue",
+      "effectiveness": "high"
+    },
+    {
+      "tip": "🎯 Use specific financial goals instead of vague 'save more'",
+      "psychology": "goal-setting theory",
+      "effectiveness": "high"
+    },
+    {
+      "tip": "📊 Visualize progress with charts and trackers",
+      "psychology": "positive reinforcement",
+      "effectiveness": "medium"
+    },
+    {
+      "tip": "👥 Share goals with accountability partner",
+      "psychology": "social commitment",
+      "effectiveness": "medium"
+    },
+    {
+      "tip": "🎉 Celebrate financial milestones with small rewards",
+      "psychology": "positive conditioning",
+      "effectiveness": "medium"
+    }
+  ],
+  "tax_optimization_tips": [
+    {
+      "tip": "🏛️ Max out 401(k) contribution ($23,000 limit for 2024)",
+      "account_type": "retirement",
+      "tax_benefit": "deduction"
+    },
+    {
+      "tip": "🎯 Contribute to Roth IRA for tax-free growth ($7,000 limit)",
+      "account_type": "retirement", 
+      "tax_benefit": "tax_free_growth"
+    },
+    {
+      "tip": "🏥 Use HSA as triple tax advantage investment account",
+      "account_type": "health",
+      "tax_benefit": "triple_advantage"
+    },
+    {
+      "tip": "📚 Deduct student loan interest (up to $2,500)",
+      "account_type": "education",
+      "tax_benefit": "deduction"
+    },
+    {
+      "tip": "🏠 Take mortgage interest deduction if you itemize",
+      "account_type": "housing",
+      "tax_benefit": "deduction"
+    }
+  ],
+  "life_stage_tips": {
+    "20s": [
+      "🚀 Focus on building good financial habits early",
+      "📚 Invest in education and skill development",
+      "💳 Build credit history responsibly",
+      "🛡️ Get basic insurance coverage"
+    ],
+    "30s": [
+      "🏠 Save for house down payment if desired",
+      "👶 Plan for family expenses and life insurance",
+      "📈 Increase investment contributions as income grows",
+      "🎯 Set specific financial goals with timelines"
+    ],
+    "40s": [
+      "⚡ Accelerate retirement savings (catch-up contributions)",
+      "👨‍👩‍👧‍👦 Plan for children's education costs",
+      "🏠 Consider paying off mortgage early",
+      "💼 Diversify income sources"
+    ],
+    "50s": [
+      "🎯 Focus heavily on retirement savings",
+      "📋 Create estate planning documents",
+      "🏥 Plan for healthcare costs in retirement",
+      "📊 Review and optimize investment allocation"
+    ]
+  },
+  "ai_insights": {
+    "personalization_factors": [
+      "current_savings_rate",
+      "expense_ratios", 
+      "debt_to_income_ratio",
+      "age_and_life_stage",
+      "risk_tolerance",
+      "financial_goals",
+      "emergency_fund_status"
+    ],
+    "recommendation_weights": {
+      "emergency_fund": 0.3,
+      "debt_payoff": 0.25,
+      "savings_optimization": 0.2,
+      "investment_strategy": 0.15,
+      "income_growth": 0.1
+    }
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "profile_templates": {
+    "recent_graduate": {
+      "age_range": "22-26",
+      "typical_income": 45000,
+      "typical_expenses": {
+        "housing": 1200,
+        "transport": 300,
+        "food": 400,
+        "healthcare": 150,
+        "entertainment": 200,
+        "other": 250,
+        "debt": 400
+      },
+      "common_goals": [
+        "build_emergency_fund",
+        "pay_off_student_loans", 
+        "start_investing",
+        "build_credit"
+      ],
+      "ai_advice_focus": [
+        "debt_management",
+        "budget_basics",
+        "emergency_fund",
+        "career_growth"
+      ]
+    },
+    "young_professional": {
+      "age_range": "27-35",
+      "typical_income": 75000,
+      "typical_expenses": {
+        "housing": 2000,
+        "transport": 500,
+        "food": 600,
+        "healthcare": 300,
+        "entertainment": 400,
+        "other": 400,
+        "debt": 300
+      },
+      "common_goals": [
+        "house_down_payment",
+        "maximize_401k",
+        "build_wealth",
+        "prepare_for_family"
+      ],
+      "ai_advice_focus": [
+        "investment_strategy",
+        "tax_optimization", 
+        "goal_planning",
+        "insurance_planning"
+      ]
+    },
+    "established_professional": {
+      "age_range": "36-50",
+      "typical_income": 100000,
+      "typical_expenses": {
+        "housing": 2500,
+        "transport": 700,
+        "food": 800,
+        "healthcare": 500,
+        "entertainment": 500,
+        "other": 600,
+        "debt": 800
+      },
+      "common_goals": [
+        "retirement_planning",
+        "children_education",
+        "wealth_building",
+        "estate_planning"
+      ],
+      "ai_advice_focus": [
+        "advanced_investing",
+        "retirement_acceleration",
+        "tax_strategies",
+        "estate_planning"
+      ]
+    },
+    "pre_retiree": {
+      "age_range": "51-65",
+      "typical_income": 120000,
+      "typical_expenses": {
+        "housing": 2000,
+        "transport": 600,
+        "food": 700,
+        "healthcare": 800,
+        "entertainment": 400,
+        "other": 500,
+        "debt": 200
+      },
+      "common_goals": [
+        "retirement_optimization",
+        "healthcare_planning",
+        "legacy_planning",
+        "risk_reduction"
+      ],
+      "ai_advice_focus": [
+        "retirement_preparation",
+        "healthcare_costs",
+        "asset_protection",
+        "withdrawal_strategies"
+      ]
+    }
+  },
+  "financial_personalities": {
+    "conservative_saver": {
+      "characteristics": [
+        "prioritizes_security",
+        "low_risk_tolerance", 
+        "prefers_savings_accounts",
+        "fears_market_volatility"
+      ],
+      "ai_recommendations": [
+        "Start with target-date funds",
+        "Focus on emergency fund first",
+        "Use conservative asset allocation",
+        "Emphasize guaranteed returns"
+      ]
+    },
+    "aggressive_investor": {
+      "characteristics": [
+        "high_risk_tolerance",
+        "seeks_maximum_growth",
+        "comfortable_with_volatility",
+        "long_time_horizon"
+      ],
+      "ai_recommendations": [
+        "Higher stock allocation (80-90%)",
+        "Consider growth stocks",
+        "International diversification",
+        "Regular rebalancing"
+      ]
+    },
+    "balanced_planner": {
+      "characteristics": [
+        "moderate_risk_tolerance",
+        "values_diversification",
+        "systematic_approach",
+        "goal_oriented"
+      ],
+      "ai_recommendations": [
+        "60/40 stocks/bonds allocation",
+        "Regular investment schedule",
+        "Multiple account types",
+        "Quarterly reviews"
+      ]
+    },
+    "debt_focused": {
+      "characteristics": [
+        "prioritizes_debt_elimination",
+        "seeks_fast_payoff_methods",
+        "motivated_by_freedom",
+        "willing_to_sacrifice_short_term"
+      ],
+      "ai_recommendations": [
+        "Use debt avalanche method",
+        "Minimize investing until debt-free",
+        "Focus on increasing income",
+        "Track payoff progress visually"
+      ]
+    }
+  },
+  "contextual_responses": {
+    "high_savings_rate": {
+      "threshold": 20,
+      "responses": [
+        "🌟 Excellent savings discipline! You're in the top 10% of savers.",
+        "🚀 With your savings rate, you're on track for early financial independence.",
+        "💎 Your financial discipline is paying off - keep up the momentum!"
+      ]
+    },
+    "medium_savings_rate": {
+      "threshold": 10,
+      "responses": [
+        "👍 Good progress on savings! Let's optimize to reach 20%.",
+        "📈 You're building wealth steadily - small improvements can have big impact.",
+        "💪 Solid foundation! Ready to take your savings to the next level?"
+      ]
+    },
+    "low_savings_rate": {
+      "threshold": 0,
+      "responses": [
+        "⚠️ Your budget needs immediate attention. Let's create a plan.",
+        "🎯 Small changes can make a big difference. Where should we start?",
+        "💡 Every financial journey starts with the first step. Ready to begin?"
+      ]
+    }
+  },
+  "ai_conversation_starters": {
+    "budget_health_check": [
+      "How does my spending compare to recommended guidelines?",
+      "What's my biggest opportunity for savings?",
+      "Am I on track with my financial goals?"
+    ],
+    "investment_questions": [
+      "Should I invest or pay off debt first?",
+      "What's the right asset allocation for my age?",
+      "How much should I be investing monthly?"
+    ],
+    "debt_strategies": [
+      "What's the fastest way to pay off my debt?",
+      "Should I consolidate my loans?",
+      "How can I lower my interest rates?"
+    ],
+    "goal_planning": [
+      "How long will it take to save for a house down payment?",
+      "Am I saving enough for retirement?",
+      "What should my next financial priority be?"
+    ]
+  },
+  "smart_alerts": {
+    "budget_variance": {
+      "trigger_threshold": 10,
+      "message_template": "Your {category} spending is {percentage}% above target",
+      "severity": "warning"
+    },
+    "savings_opportunity": {
+      "trigger_threshold": 5,
+      "message_template": "You could save ${amount}/month by optimizing {category}",
+      "severity": "suggestion"
+    },
+    "goal_milestone": {
+      "trigger_conditions": ["25%", "50%", "75%", "100%"],
+      "message_template": "🎉 You've reached {percentage} of your {goal_name} goal!",
+      "severity": "celebration"
+    }
+  },
+  "learning_modules": {
+    "budgeting_101": {
+      "lessons": [
+        "Understanding income vs expenses",
+        "The 50/30/20 budgeting rule",
+        "Tracking tools and apps",
+        "Adjusting your budget over time"
+      ],
+      "duration": "2 weeks",
+      "difficulty": "beginner"
+    },
+    "investing_fundamentals": {
+      "lessons": [
+        "Stocks, bonds, and mutual funds explained",
+        "Risk vs return concepts",
+        "Dollar-cost averaging strategy",
+        "Building a diversified portfolio"
+      ],
+      "duration": "4 weeks",
+      "difficulty": "intermediate"
+    },
+    "debt_elimination": {
+      "lessons": [
+        "Understanding interest rates and terms",
+        "Avalanche vs snowball methods",
+        "Negotiating with creditors",
+        "Preventing future debt"
+      ],
+      "duration": "3 weeks",
+      "difficulty": "beginner"
+    },
+    "retirement_planning": {
+      "lessons": [
+        "401(k) vs IRA differences",
+        "Calculating retirement needs",
+        "Social Security optimization",
+        "Withdrawal strategies"
+      ],
+      "duration": "6 weeks",
+      "difficulty": "intermediate"
+    }
+  },
+  "ai_model_configs": {
+    "sentiment_analysis": {
+      "model": "nlptown/bert-base-multilingual-uncased-sentiment",
+      "confidence_threshold": 0.7,
+      "labels": ["positive", "neutral", "negative"]
+    },
+    "intent_classification": {
+      "model": "facebook/bart-large-mnli",
+      "financial_categories": [
+        "budgeting",
+        "investing", 
+        "debt_management",
+        "emergency_planning",
+        "retirement_planning",
+        "tax_optimization",
+        "insurance_planning",
+        "goal_setting"
+      ]
+    },
+    "text_generation": {
+      "model": "microsoft/DialoGPT-medium",
+      "max_length": 150,
+      "temperature": 0.7,
+      "top_p": 0.9
+    }
+  }
+}
